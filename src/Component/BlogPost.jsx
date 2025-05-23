@@ -15,7 +15,7 @@ const BlogPost = () => {
         }
         const decodedTitle = decodeURIComponent(title);
         console.log('Fetching blog with title:', decodedTitle);
-        const response = await axios.get(`http://localhost:8080/blog/${encodeURIComponent(decodedTitle)}`);
+        const response = await axios.get(`https://licapp.onrender.com/blog/${encodeURIComponent(decodedTitle)}`);
         console.log('Backend response:', response.data);
         setBlog(response.data);
         setError('');

@@ -9,7 +9,7 @@ const PlansList = () => {
   useEffect(() => {
     const fetchPlans = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/plans');
+        const response = await axios.get('https://licapp.onrender.com/plans');
         setPlans(response.data);
         setError('');
       } catch (err) {

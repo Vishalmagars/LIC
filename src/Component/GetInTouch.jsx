@@ -35,7 +35,7 @@ const GetInTouch = () => {
     setStatus(null); // Reset status
 
     try {
-      const response = await fetch('http://localhost:8080/form', {
+      const response = await fetch('https://licapp.onrender.com/form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

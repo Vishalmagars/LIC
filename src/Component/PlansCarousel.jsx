@@ -51,7 +51,7 @@ const PlansCarousel = () => {
   useEffect(() => {
     const fetchPlans = async () => {
       try {
-        const response = await fetch("http://localhost:8080/plans");
+        const response = await fetch("https://licapp.onrender.com/plans");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

@@ -19,7 +19,7 @@ const Testimonials = () => {
   // Fetch testimonials from public endpoint
   const fetchTestimonials = async () => {
     try {
-      const response = await axios.get('http://localhost:8080/testimonials');
+      const response = await axios.get('https://licapp.onrender.com/testimonials');
       setTestimonials(response.data);
       setError('');
     } catch (err) {

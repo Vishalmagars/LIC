@@ -55,7 +55,7 @@ const CategoryPlans = () => {
   useEffect(() => {
     const fetchPlans = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/plans');
+        const response = await axios.get('https://licapp.onrender.com/plans');
         const decodedCategory = decodeURIComponent(categoryName);
         const filteredPlans = response.data.filter(
           (plan) => plan.category.toLowerCase() === decodedCategory.toLowerCase()

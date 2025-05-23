@@ -9,7 +9,7 @@ const BlogList = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/blog');
+        const response = await axios.get('https://licapp.onrender.com/blog');
         setBlogs(response.data);
         setError('');
       } catch (err) {

@@ -19,7 +19,7 @@ const PlanDetail = () => {
   useEffect(() => {
     const fetchPlan = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/plans');
+        const response = await axios.get('https://licapp.onrender.com/plans');
         const decodedTitle = decodeURIComponent(title);
         const foundPlan = response.data.find((p) => p.title === decodedTitle);
         if (foundPlan) {
@@ -46,7 +46,7 @@ const PlanDetail = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:8080/form', formData);
+      await axios.post('https://licapp.onrender.com/form', formData);
       setFormStatus('Enquiry submitted successfully!');
       setFormError('');
       setFormData({
