@@ -2,23 +2,23 @@ import React from 'react';
 
 const images = [
   {
-    src: 'https://imgs.search.brave.com/pxS4d1yRzLxjvTvZiCwgIAtO7OsulWAKer32X5_a-w4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/Ymx1ZS1mb3JtYWwt/c3VpdC11cmJhbi1i/dXNpbmVzc21hbi5q/cGc_d2lkdGg9MTAw/MCZmb3JtYXQ9cGpw/ZyZleGlmPTAmaXB0/Yz0w',
+    src: 'https://images.unsplash.com/photo-1514415008039-efa173293080?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8TGlmZSUyMEluc3VyYW5jZXxlbnwwfHwwfHx8MA%3D%3D',
     caption: 'Awarded Best LIC Advisor – 2023',
   },
   {
-    src: 'https://imgs.search.brave.com/pxS4d1yRzLxjvTvZiCwgIAtO7OsulWAKer32X5_a-w4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/Ymx1ZS1mb3JtYWwt/c3VpdC11cmJhbi1i/dXNpbmVzc21hbi5q/cGc_d2lkdGg9MTAw/MCZmb3JtYXQ9cGpw/ZyZleGlmPTAmaXB0/Yz0w',
+    src: 'https://images.unsplash.com/photo-1527856263669-12c3a0af2aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fExpZmUlMjBJbnN1cmFuY2V8ZW58MHx8MHx8fDA%3D',
     caption: 'Happy Family after Policy Signup',
   },
   {
-    src: 'https://imgs.search.brave.com/pxS4d1yRzLxjvTvZiCwgIAtO7OsulWAKer32X5_a-w4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/Ymx1ZS1mb3JtYWwt/c3VpdC11cmJhbi1i/dXNpbmVzc21hbi5q/cGc_d2lkdGg9MTAw/MCZmb3JtYXQ9cGpw/ZyZleGlmPTAmaXB0/Yz0w',
+    src: 'https://images.unsplash.com/photo-1542353436-312f0e1f67ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fExpZmUlMjBJbnN1cmFuY2V8ZW58MHx8MHx8fDA%3D',
     caption: 'Policy Awareness Event – Pune',
   },
   {
-    src: 'https://imgs.search.brave.com/pxS4d1yRzLxjvTvZiCwgIAtO7OsulWAKer32X5_a-w4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/Ymx1ZS1mb3JtYWwt/c3VpdC11cmJhbi1i/dXNpbmVzc21hbi5q/cGc_d2lkdGg9MTAw/MCZmb3JtYXQ9cGpw/ZyZleGlmPTAmaXB0/Yz0w',
+    src: 'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fExpZmUlMjBJbnN1cmFuY2V8ZW58MHx8MHx8fDA%3D',
     caption: 'Recognition from Senior LIC Officials',
   },
   {
-    src: 'https://imgs.search.brave.com/pxS4d1yRzLxjvTvZiCwgIAtO7OsulWAKer32X5_a-w4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/Ymx1ZS1mb3JtYWwt/c3VpdC11cmJhbi1i/dXNpbmVzc21hbi5q/cGc_d2lkdGg9MTAw/MCZmb3JtYXQ9cGpw/ZyZleGlmPTAmaXB0/Yz0w',
+    src: 'https://images.unsplash.com/photo-1475503572774-15a45e5d60b9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TGlmZSUyMEluc3VyYW5jZXxlbnwwfHwwfHx8MA%3D%3D',
     caption: 'Grateful Client – Claim Settlement Support',
   },
 ];
